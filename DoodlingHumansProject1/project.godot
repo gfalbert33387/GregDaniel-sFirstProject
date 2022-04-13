@@ -8,9 +8,26 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "Actor",
+"language": "GDScript",
+"path": "res://Actor.gd"
+}, {
+"base": "Node2D",
+"class": "RoomParent",
+"language": "GDScript",
+"path": "res://src/Rooms/RoomParent.gd"
+} ]
+_global_script_class_icons={
+"Actor": "",
+"RoomParent": ""
+}
+
 [application]
 
 config/name="DoodlingHumansProject1"
+run/main_scene="res://src/Rooms/RoomTest.tscn"
 config/icon="res://icon.png"
 
 [physics]
