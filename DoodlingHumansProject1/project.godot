@@ -13,15 +13,10 @@ _global_script_classes=[ {
 "class": "Actor",
 "language": "GDScript",
 "path": "res://Actor.gd"
-}, {
-"base": "Node2D",
-"class": "RoomParent",
-"language": "GDScript",
-"path": "res://src/Rooms/RoomParent.gd"
+
 } ]
 _global_script_class_icons={
-"Actor": "",
-"RoomParent": ""
+"Actor": ""
 }
 
 [application]
